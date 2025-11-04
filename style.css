@@ -1,0 +1,23 @@
+
+.card-img-top{
+    width: 275px;
+    height:275px; 
+    background-position: center;
+    background-size: cover;
+  }
+
+  .phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+
+.card { 
+  /* border: 1px solid #ccc; */
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  height: 150px;
+
+
+}
