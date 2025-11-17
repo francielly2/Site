@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* fontes */
+  
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/* Pagina pagamento */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: url("https://images.unsplash.com/photo-1663970206579-c157cba7edda?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  background-color: rgba(255, 255, 255, 0.226);
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.formularioCor {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: auto;
+  }
+
+.busca {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .busca input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+
+ #carouselExampleIndicators {
+        width: 300px;
+        object-fit: cover;
+        height: 200px;
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+
+
+
+.card-img-top{
+    width: 275px;
+    height:275px; 
+    background-position: center;
+    background-size: cover;
+  }
+
+  .phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+
+.card { 
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: rgba(255, 255, 255, 0.15) 0px 48px 100px 0px;
+  height: 150px;
+}
+
+header, footer {
+  text-align: center;
+  background-color: #222;
+  color: white;
+  padding: 15px;
+}
+
+main {
+  padding: 20px;
+}
+
+.botao {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.6);
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  gap: 15px;
+}
+
+/* ===== Estilo das cores ===== */
+
+.cor {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.cor:hover {
+  transform: scale(1.1);
+}
+
+.cor.selecionada {
+  border-color: #007bff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.6);
+}
+
+/* ===== Inputs e formulário ===== */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 30px auto;
+  gap: 15px;
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+#btn-finalizar {
+  border: #222;
+  padding: 12px;
+  border-bottom: #0036e7;
+  border-radius: 6px;
+  background-color: #0036e7;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.6);
+}
+
+#btn-finalizar:hover {
+  background-color: #bfbfff;
+}
+
